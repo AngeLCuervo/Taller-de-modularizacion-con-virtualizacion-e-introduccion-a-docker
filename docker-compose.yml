@@ -1,0 +1,32 @@
+services:
+  app:
+    build:
+      context: .
+      args:
+        APP_PORT: 6000
+    image: arem-docker-aws-lab:local
+    container_name: arem-app
+    environment:
+      PORT: 6000
+      THREAD_POOL_SIZE: 4
+    ports:
+      - "6000:6000"
+    depends_on:
+      - mongo
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:7
+    container_name: arem-mongo
+    environment:
+      MONGO_INITDB_DATABASE: arem_lab
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - mongo_config:/data/configdb
+    restart: unless-stopped
+
+volumes:
+  mongo_data:
+  mongo_config:
