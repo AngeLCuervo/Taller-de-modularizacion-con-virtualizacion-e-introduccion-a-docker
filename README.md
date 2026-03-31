@@ -9,6 +9,21 @@ This repository contains a Java 17 Maven project for an AREM lab that combines:
 - **Docker Hub publishing scripts**, and
 - **AWS EC2 deployment with Terraform**.
 
+<img width="1412" height="479" alt="image" src="https://github.com/user-attachments/assets/bc005ac0-eef4-4cd0-bd14-924ad5801fa1" />
+
+<img width="767" height="259" alt="image" src="https://github.com/user-attachments/assets/ae7f16d1-7682-4500-a7b7-624484d32fbc" />
+
+<img width="1323" height="645" alt="image" src="https://github.com/user-attachments/assets/bdde17b1-f09c-4ffd-80a2-21288a44de0d" />
+
+<img width="1160" height="649" alt="image" src="https://github.com/user-attachments/assets/e6ac5bb0-ae71-4bc1-9f67-9bd3090075c3" />
+
+<img width="912" height="362" alt="image" src="https://github.com/user-attachments/assets/ea41b440-f5a4-4ff3-8371-c9e7a9284429" />
+
+<img width="804" height="348" alt="image" src="https://github.com/user-attachments/assets/e5e867e3-b6d1-4a67-a6e1-ad5f3bbab8db" />
+
+<img width="981" height="295" alt="image" src="https://github.com/user-attachments/assets/6a56c1df-ce9e-413d-b2f1-8577f350661a" />
+
+
 ### Assignment requested vs implemented
 
 | Assignment requested | Implemented in this repository |
